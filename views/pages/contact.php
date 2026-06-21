@@ -9,7 +9,7 @@
         <p class="alert error"><?= e($message) ?></p>
     <?php endif; ?>
 
-    <form class="contact-form" action="<?= e(url('/contact.php')) ?>" method="post" novalidate>
+    <form class="contact-form" action="<?= e(url('/contact')) ?>" method="post" novalidate>
         <?= csrf_field() ?>
 
         <label for="name">Name</label>
